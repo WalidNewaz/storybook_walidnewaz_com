@@ -15,7 +15,7 @@ const StyledAnswer = styled.div`
   }
 
   .multiple-choice-option {
-    padding: 16px 72px 16px 24px;
+    padding: 16px 24px;
     display: flex;
     justify-content: space-between;
   }
@@ -34,10 +34,6 @@ const StyledAnswer = styled.div`
     padding-block-end: 0.75rem;
     padding-inline-start: 1.75rem;
     padding-inline-end: 1.75rem;
-  }
-
-  [correct] .multiple-choice-explanation-correctness {
-    color: green;
   }
 `;
 
