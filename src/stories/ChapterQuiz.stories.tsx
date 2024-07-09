@@ -58,6 +58,36 @@ const quizes: QuizType = {
         },
       ],
     },
+    {
+      question: "Spot the invalid hsl color.",
+      options: [
+        {
+          text: "hsl(0 0% 0% / 20%)",
+          correct: false,
+          explanation: "This is a valid hsl value.",
+        },
+        {
+          text: "hsl(.5turn 40% 60%)",
+          correct: false,
+          explanation: "This is a valid hsl value.",
+        },
+        {
+          text: "hsl(2rad 50% 50%)",
+          correct: false,
+          explanation: "This is a valid hsl value.",
+        },
+        {
+          text: "hsl(5, 0%, 90%)",
+          correct: false,
+          explanation: "This is a valid hsl value.",
+        },
+        {
+          text: "hsl(0, 0, 0)",
+          correct: true,
+          explanation: "🎉 You found it, the 2nd and 3rd values should be percentages.",
+        },
+      ],
+    },
   ],
 };
 
