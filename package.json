@@ -27,6 +27,7 @@
     "babel-plugin-styled-components": "^2.1.4",
     "gatsby": "^5.9.1",
     "gatsby-plugin-styled-components": "^6.13.1",
+    "lucide-react": "^0.544.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^6.1.11"
